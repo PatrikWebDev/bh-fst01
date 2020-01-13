@@ -4,4 +4,7 @@
 // fejezetében van!
 let a, b
 
-{ a, b } = { foo: 1, bar: 2 }
+({ a, b } = { a: 1, b: 2 })
+
+console.log(a)
+console.log(b)
